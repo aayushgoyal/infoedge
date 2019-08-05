@@ -2,6 +2,6 @@
 
 ## Run Project
 
-    $ cd infoedge-assignment-2
+    $ cd infoedge
     $ npm install
     $ npm start
