@@ -1,0 +1,27 @@
+.job-card {
+    flex: 0 0 auto;
+    margin: 0 10px;
+
+    .cityLogo {
+        margin: 0px 0px 10px 0;
+        img {
+            width: 170px;
+            height: 130px;
+            border-radius: 5px;
+        }
+    }
+
+    .content {
+        .city-name {
+            font-size: 15px;
+            font-weight: 600;
+            color: #25393a;
+        }
+
+        .jobs-count {
+            font-size: 15px;
+            font-weight: 400;
+            color: #5b777d;
+        }
+    }
+}

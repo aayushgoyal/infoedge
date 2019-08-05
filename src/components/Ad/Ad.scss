@@ -1,0 +1,46 @@
+.Ad {
+    border: 1px solid #4a494e;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 28px 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -5px 6px 2px 0px #eaf2f5;
+
+    .promotion-content {
+        .promotion-text {
+            .title {
+                font-size: 23px;
+                font-weight: 600;
+                color: #25393a;
+                line-height: 1.6;
+            }
+
+            .subtitle {
+                font-size: 16px;
+                font-weight: 500;
+                color: #57737b;
+                margin: 10px 0;
+            }
+        }
+
+        .btn {
+            width: fit-content;
+
+            p {
+                background-color: #009788;
+                color: #fff;
+                border-radius: 26px;
+                padding: 8px 10px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .promotion-medium {
+        img {
+            width: 118px;
+            height: auto;
+        }
+    }
+}

@@ -1,0 +1,88 @@
+.JobCard {
+    border: 1px solid #ebf0f3;
+    border-bottom: 3px solid #ebf0f3;
+    border-left: 3px solid #ebf0f3;
+    max-width: 305px;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 10px;
+    flex: 0 0 auto;
+    height: 175px;
+    border-radius: 6px;
+    position: relative;
+
+    .job-company-details-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+
+        .job-company-details {
+            .job-position {
+                color: #2c3a3a;
+                font-size: 17px;
+                font-weight: 500;
+                margin: 5px 0px;
+                cursor: pointer;
+            }
+
+            .company-name {
+                color: #577277;
+                font-size: 15px;
+                margin: 5px 0px;
+                font-weight: 400;
+            }
+        }
+
+        .logo {
+            width: 50px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                width: 50px;
+                height: auto;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .job-details {
+        display: flex;
+        flex-direction: column;
+
+        .job-location,
+        .job-compensation {
+            display: flex;
+            margin: 6px 0px;
+
+            img {
+                width: 14px;
+                height: 14px;
+                margin-right: 13px;
+            }
+
+            .data {
+                font-size: 14px;
+                font-weight: 300;
+                color: #3a4e4d;
+            }
+        }
+    }
+
+    .job-posting-day {
+        text-align: right;
+        margin: 10px 15px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+
+        p {
+            color: #7c959b;
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+}

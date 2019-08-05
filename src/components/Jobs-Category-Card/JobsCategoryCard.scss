@@ -1,0 +1,30 @@
+.jobCategoryCard {
+    flex: 0 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 45px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ecb85e;
+    border-bottom: 6px solid #ecb85e;
+    border-left: 6px solid #ecb85e;
+    border-top: 3px solid #ecb85e;
+    margin: 0px 10px;
+    cursor: pointer;
+    
+    .category {
+        font-size: 16px;
+        font-weight: 500;
+        margin: 5px 0px;
+        
+    }
+
+    .jobs-count {
+        font-size: 16px;
+        font-weight: 300;
+        color: #688183;
+        margin: 5px 0px;
+    }
+}

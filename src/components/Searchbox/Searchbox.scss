@@ -1,0 +1,16 @@
+.searchbox-wrapper {
+    width: 100%;
+
+    .seacrchbox {
+        border-radius: 5px;
+        border: 0px;
+        height: 50px;
+        width: calc(100% - 15px);
+        padding-left: 25px;
+        color: #afbebd;
+        font-size: 15px;
+        font-weight: 300;
+        outline: none;
+        cursor: pointer;
+    }
+}

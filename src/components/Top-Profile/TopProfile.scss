@@ -1,0 +1,44 @@
+.topProfile-wrapper {
+    background-color: #009788;
+    padding: 15px 25px;
+    border-bottom: 7px solid #ebf1f1;
+
+    .topProfile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .personal {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .name {
+                color: #fff;
+                font-weight: 500;
+                font-size: 20px;
+                margin: 0.3rem 0px;
+            }
+
+            .education {
+                color: #9bddd9;
+                font-size: 15px;
+                margin: 0.3rem 0px;
+            }
+        }
+
+        .profile-image-wrapper {
+        
+            .profile-img {
+                border:1px solid #fff;
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .searchbox {
+        margin: 30px 10px 0px 0px;
+    }
+}

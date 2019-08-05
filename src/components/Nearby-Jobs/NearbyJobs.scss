@@ -1,0 +1,59 @@
+.jobsListing-wrapper {
+    margin: 22px 0px;
+    .header {
+        display: flex;
+        padding:15px 25px;
+        position: relative;
+
+        .icon {
+            margin-right: 15px;
+            img {
+                width: 40px;
+                height: auto;
+                object-fit: contain;  
+            }
+        }
+
+        .header-section {
+            .title {
+                font-size: 17px;
+                font-weight: 600;
+                color: #25393a;
+            }
+
+            .subtitle {
+                font-weight: 300;
+                font-size: 14px;
+                color: #597675;
+                margin-top: 3px;
+
+                span {
+                   color: #047768;
+                   font-weight: 600;
+                   text-transform: uppercase;
+                }
+            }
+        }
+
+        .view {
+            color: #047768;
+            font-weight: 600;
+            font-size: 13px;
+            position: absolute;
+            right: 25px;
+            top: 21px;
+            cursor: pointer;
+        }
+    }
+    .joblisting {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        margin: 0px 10px 0 0;
+        -webkit-overflow-scrolling: touch;
+    
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
